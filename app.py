@@ -4,11 +4,11 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-# MySQL 연결 설정
+# MySQL 연결 설정(v2)
 db_config = {
-    'host': 'localhost',
-    'user': 'sejong',
-    'password': '1234',
+    'host': '10.0.66.24',
+    'user': 'tulips',
+    'password': '2345',
     'database': 'todo_db'
 }
 
