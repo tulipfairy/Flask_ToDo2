@@ -3,7 +3,7 @@ import mysql.connector
 from datetime import datetime
 
 app = Flask(__name__)
-
+#실험중
 # MySQL 연결 설정(v2)
 db_config = {
     'host': '10.0.66.24',
